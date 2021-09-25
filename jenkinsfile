@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout'){
             steps {
-                git branch: 'master', credentialsId: 'Github', url: 'git@github.com:itconsultor/nginx-jenkins-ansible-terraform.git'
+                git branch: 'main', credentialsId: 'Github', url: 'git@github.com:itconsultor/nginx-jenkins-ansible-terraform.git'
             }
         }
 
